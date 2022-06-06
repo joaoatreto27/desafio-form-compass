@@ -137,3 +137,97 @@ main {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center:
+}
+
+.back{
+    width: 265px;
+    height: 177px;
+    font-size: 36px;
+}
+
+.button{
+    background: #0DBDBD;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.success-main{
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .main {
+        background: #FFFFFF;
+        align-items: flex-start;
+    }
+
+    .form{
+        flex-direction: column;
+    }
+
+    .name {
+        margin: 0;
+    }
+    
+    .image-main{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .email-password{
+        margin: 0;
+    }
+
+    .phone-birthday{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .phone, .birthday {
+        flex: 1;
+        width: 50%;
+    }
+    
+    .phone {
+        margin: 0 5px 20px 0;
+        width: 100%;
+    }
+
+    .birthday {
+        margin: 0 0 20px 5px; 
+        width: 100%;
+    }
+
+    .checkbox-register{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .register{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .back{
+        margin-top: 50px;
+        width: 327px;
+        height: 75px;
+    }
+}
+
+.success {
+    display: none;
+    justify-content: center;
+}
