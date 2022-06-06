@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECEEF2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+    background: #E5E5E5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 620px;
+    height: auto;
+    background: #FFFFFF;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.image-main{
+    width: 220px;
+    height: 130px;
+    margin: auto;
+}
+
+.main-title{
+    font-size: 36px;
+    
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form fieldset label, .form fieldset input {
+    text-align: left;
+    display: block;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form label {
+    font-size: 1em;
+    color: #767676;
+    margin-bottom: 5px;
+}
+
+.form input {
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+}
+
+.form input:focus {
+    background: #60b3b31e;
+    border-radius: 5px;
+}
+
+.name {
+    flex: 1 1 100%;
+    margin: 0 5px 0 5px;
+}
+
+.full-name {
+    width: 100%;
+}
+
+.email-password{
+    flex: 2 1;
+    margin: 0 10px 0 5px;
+}
+
+.email, .password, .phone, .birthday, .full-name {
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+
+.phone-birthday{
+    flex: 1 1;
+    margin: 0 5px 0 10px;
+}
+
+.birthday{
+    opacity: 1;
+    display: block;
+    background-position: 100% center;
+    cursor: pointer;
+}
+
+.checkbox-register{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 5px 10px 5px;
+}
+
+.checkbox{
+    align-items: flex-start;
+    padding: 4px;
+    gap: 8px;
+    position: relative;
+    width: 250px;
+    height: 24px;
+}
+
+.checkbox {
+    display: inline;
+}
+
+.button{
+    background: #0DBDBD;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register{
+    background: #0DBDBD;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
