@@ -11,49 +11,64 @@
         <title>Intern Sing Up</title>
         
     </head>
-
-    <body>
-        <main class="main" id="form">
-            <div class="main-container">
-                <img src="image.png" class="image-main">
-                <h1 class="main-title">Internal Sign Up</h1>
-                <form class="form">
-                    <fieldset class="name">
-                        <label for="full-name">Full Name *</label>
-                        <input type="text" class="full-name" placeholder="Name" required>
+        
+</head>
+<body>
+    
+    <main class="main" id="form">
+        <div class="main-container">
+            <img src="image.png" class="image-main">
+            <h1 class="main-title">Internal Sign Up</h1>
+            <form class="form">
+                <fieldset class="name">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" class="full-name" placeholder="Name" required>
+                    
+                </fieldset>
+                <fieldset class="email-password">
+                    <div class="email">
+                        <label for="email">Email *</label>
+                        <input type="email" class="email" placeholder="user@domain.com" required>
                         
-                    </fieldset>
-                    <fieldset class="email-password">
-                        <div class="email">
-                            <label for="email">Email *</label>
-                            <input type="email" class="email" placeholder="user@domain.com" required>
-                            
-                        </div>
-                        <div class="password">
-                            <label for="password">Password *</label>
-                            <input type="password" class="password" required>
-                            
-                        </div>
-                    </fieldset>
-                    <fieldset class="phone-birthday">
-                        <div class="phone">
-                            <label for="phone">Phone</label>
-                            <input type="tel" class="phone" placeholder="(55) 00000-0000" required>
-                            
-                        </div>
-                        <div class="birthday">
-                            <label for="birthday">Birthday *</label>
-                            <input type="date" class="birthday" required>
-                            
-                        </div>
-                    </fieldset>
-                    <fieldset class="checkbox-register">
-                        <div>
-                                <label class="checkbox"><input type="checkbox" required>I accept the terms and privacy</label>
-                        </div>
-                        <button onClick="register(event)" class="button register">Register</button>
-                    </fieldset>
-                </form>
-
-    </body>
+                    </div>
+                    <div class="password">
+                        <label for="password">Password *</label>
+                        <input type="password" class="password" required>
+                        
+                    </div>
+                </fieldset>
+                <fieldset class="phone-birthday">
+                    <div class="phone">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="phone" placeholder="(55) 00000-0000" required>
+                        
+                    </div>
+                    <div class="birthday">
+                        <label for="birthday">Birthday *</label>
+                        <input type="date" class="birthday" required>
+                        
+                    </div>
+                </fieldset>
+                <fieldset class="checkbox-register">
+                    <div>
+                            <label class="checkbox"><input type="checkbox" required>I accept the terms and privacy</label>
+                    </div>
+                    <button onClick="register(event)" class="button register">Register</button>
+                </fieldset>
+            </form>
+            
+        </div>
+    </main>
+    <main class="main success-main" id="success">
+        <div class="main-container">
+            <div class="sucess">
+                <img src="image.png" class="image-main">
+                <h1 class="main-title">Success!</h1>
+                <button onClick="back(event)" class="button back">Go Back!</button>
+            </div>
+        </div>
+    </main>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
